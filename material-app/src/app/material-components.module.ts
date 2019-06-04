@@ -21,6 +21,16 @@ import {
     MatCardModule,
     MatSidenavModule,
     MatListModule
+  ],
+  exports: [
+    CommonModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatCardModule,
+    MatSidenavModule,
+    MatListModule
   ]
 })
 export class MaterialComponentsModule { }
